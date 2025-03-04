@@ -1,0 +1,29 @@
+.question {
+  &-block {
+    padding: 0.2rem 0;
+  }
+
+  &-content {
+    padding: 1rem 0;
+    font-weight: 500;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+
+    &:hover {
+      color: $Grayishpurple;
+      cursor: pointer;
+    }
+  }
+
+  &-anwser {
+    font-weight: 200;
+    max-height: 0;
+    overflow: hidden;
+  }
+}
+
+.active {
+  max-height: 150px;
+}
